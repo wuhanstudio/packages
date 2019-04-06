@@ -1,6 +1,7 @@
 {
   "name": "littlefs",
-  "description": "a littlefs package for rt-thread",
+  "description": "A little fail-safe filesystem designed for microcontrollers",
+  "description_zh": "为微控制器设计的一个小型的且掉电安全的文件系统",
   "keywords": [
     "littlefs"
   ],
@@ -18,6 +19,12 @@
       "URL": "https://github.com/geniusgogo/littlefs.git",
       "filename": "littlefs-0.9.0.zip",
       "VER_SHA": "2b6c05f42b6fe1c8cd112540a84a8b83e6536c14"
+    },
+    {
+      "version": "v1.7.0",
+      "URL": "https://github.com/geniusgogo/littlefs/archive/v1.7.0_for_rtthread.zip",
+      "filename": "v1.7.0_for_rtthread.zip",
+      "VER_SHA": ""
     },
     {
       "version": "latest",
