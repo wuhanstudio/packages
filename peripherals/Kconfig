@@ -22,12 +22,9 @@ source "$PKGS_DIR/packages/peripherals/MotionDriver2RTT/Kconfig"
 source "$PKGS_DIR/packages/peripherals/ad7746/Kconfig"
 source "$PKGS_DIR/packages/peripherals/pca9685/Kconfig"
 source "$PKGS_DIR/packages/peripherals/i2c_tools/Kconfig"
-<<<<<<< HEAD
-=======
 source "$PKGS_DIR/packages/peripherals/nrf24l01/Kconfig"
 source "$PKGS_DIR/packages/peripherals/touch/Kconfig"
 source "$PKGS_DIR/packages/peripherals/lcd/Kconfig"
 source "$PKGS_DIR/packages/peripherals/max17048/Kconfig"
 
 endmenu
->>>>>>> upstream
