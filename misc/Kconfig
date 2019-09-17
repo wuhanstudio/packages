@@ -13,13 +13,15 @@ source "$PKGS_DIR/packages/misc/dstr/Kconfig"
 source "$PKGS_DIR/packages/misc/TinyFrame/Kconfig"
 source "$PKGS_DIR/packages/misc/kendryte-demo/Kconfig"
 source "$PKGS_DIR/packages/misc/DigitalCtrl/Kconfig"
-
-
+source "$PKGS_DIR/packages/misc/upacker/Kconfig"
+source "$PKGS_DIR/packages/misc/uparam/Kconfig"
 source "$PKGS_DIR/packages/misc/samples/Kconfig"
 source "$PKGS_DIR/packages/misc/hello/Kconfig"
 source "$PKGS_DIR/packages/misc/vi/Kconfig"
 source "$PKGS_DIR/packages/misc/nnom/Kconfig"
 source "$PKGS_DIR/packages/misc/libann/Kconfig"
 source "$PKGS_DIR/packages/misc/elapack/Kconfig"
+source "$PKGS_DIR/packages/misc/armv7m_dwt/Kconfig"
+source "$PKGS_DIR/packages/misc/vt100/Kconfig"
 
 endmenu
