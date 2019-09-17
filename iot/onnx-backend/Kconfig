@@ -2,10 +2,7 @@
 # Kconfig file for package onnx-backend
 menuconfig PKG_USING_ONNX_BACKEND
     select RT_USING_LIBC
-<<<<<<< HEAD
-=======
     select PKG_USING_ONNX_PARSER
->>>>>>> 6db033ab4e73b32f372e53f9347e60accac32844
     bool "onnx-backend: Open Neural Network Exchange backend on RT-Thread"
     default n
 
