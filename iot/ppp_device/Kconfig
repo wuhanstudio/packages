@@ -1,7 +1,7 @@
 
 # Kconfig file for package ppp_device
 menuconfig PKG_USING_PPP_DEVICE
-    bool "PPP DEVICE: lwIP PPP porting for GSM modem(like sim800)"
+    bool "PPP DEVICE: lwIP PPP porting for Cellular Module( 2G/3G/4G )"
     default n
     select RT_USING_SAL
     select RT_USING_LWIP
@@ -71,6 +71,9 @@ if PKG_USING_PPP_DEVICE
 
         config PPP_DEVICE_USING_AIR720
             bool "Luat Air720"
+
+        config PPP_DEVICE_USING_EC20
+            bool "Quectel EC20"
 
         config PPP_DEVICE_USING_M6312
             bool "China mobile M6312"
