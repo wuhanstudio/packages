@@ -25,5 +25,10 @@ source "$PKGS_DIR/packages/misc/armv7m_dwt/Kconfig"
 source "$PKGS_DIR/packages/misc/vt100/Kconfig"
 source "$PKGS_DIR/packages/misc/ulapack/Kconfig"
 source "$PKGS_DIR/packages/misc/ukal/Kconfig"
+source "$PKGS_DIR/packages/misc/crclib/Kconfig"
+source "$PKGS_DIR/packages/misc/threes/Kconfig"
+source "$PKGS_DIR/packages/misc/2048/Kconfig"
+source "$PKGS_DIR/packages/misc/lwgps/Kconfig"
+source "$PKGS_DIR/packages/misc/TensorflowLiteMicro/Kconfig"
 
 endmenu
